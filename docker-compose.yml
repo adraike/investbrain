@@ -10,7 +10,7 @@ services:
     ports:
       - 8000:80
     environment: # You can either use these properties OR an .env file. Do not use both!
-      APP_URL: "http://localhost:8000"
+      APP_URL: "http://localhost:8004"
       DB_CONNECTION: pgsql
       DB_HOST: investbrain-pgsql
       DB_PORT: 5432
